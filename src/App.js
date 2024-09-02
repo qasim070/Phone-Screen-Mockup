@@ -28,10 +28,42 @@ const App = () => {
             <FaVolumeUp />
           </button>
         </div>
-
-        {/* Repeat the other messages similarly */}
-      </div>
-      <div className="chat-messages">
+        <div className="message">
+          <div className="message-col">
+            <div className="avatar">A</div>
+            <span className="name">Alex Cooper</span>
+          </div>
+          <div className="message-content">
+            <p>Hello! My name is Alex, what's your name?</p>
+          </div>
+          <button className="audio-icon">
+            <FaVolumeUp />
+          </button>
+        </div>
+        <div className="message">
+          <div className="message-col">
+            <div className="avatar">A</div>
+            <span className="name">Alex Cooper</span>
+          </div>
+          <div className="message-content">
+            <p>Hello! My name is Alex, what's your name?</p>
+          </div>
+          <button className="audio-icon">
+            <FaVolumeUp />
+          </button>
+        </div>
+        <div className="message">
+          <div className="message-col">
+            <div className="avatar">A</div>
+            <span className="name">Alex Cooper</span>
+          </div>
+          <div className="message-content">
+            <p>Hello! My name is Alex, what's your name?</p>
+          </div>
+          <button className="audio-icon">
+            <FaVolumeUp />
+          </button>
+        </div>
         <div className="message">
           <div className="message-col">
             <div className="avatar">A</div>
@@ -47,38 +79,7 @@ const App = () => {
 
         {/* Repeat the other messages similarly */}
       </div>
-      <div className="chat-messages">
-        <div className="message">
-          <div className="message-col">
-            <div className="avatar">A</div>
-            <span className="name">Alex Cooper</span>
-          </div>
-          <div className="message-content">
-            <p>Hello! My name is Alex, what's your name?</p>
-          </div>
-          <button className="audio-icon">
-            <FaVolumeUp />
-          </button>
-        </div>
 
-        {/* Repeat the other messages similarly */}
-      </div>
-      <div className="chat-messages">
-        <div className="message">
-          <div className="message-col">
-            <div className="avatar">A</div>
-            <span className="name">Alex Cooper</span>
-          </div>
-          <div className="message-content">
-            <p>Hello! My name is Alex, what's your name?</p>
-          </div>
-          <button className="audio-icon">
-            <FaVolumeUp />
-          </button>
-        </div>
-
-        {/* Repeat the other messages similarly */}
-      </div>
       <div className="chat-footer">
         <p>...Joe is Speaking</p>
         <div className="footer-buttons">

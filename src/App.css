@@ -7,7 +7,7 @@
   flex-direction: column;
   height: 775px;
   max-width: 500px;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   scroll-behavior: smooth;
   margin: 2.5rem auto;
   background: linear-gradient(to bottom, #6db3f2, #1e69de);
@@ -48,6 +48,12 @@
   flex: 1;
   padding: 20px;
   overflow-y: auto;
+}
+
+.message-col {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
 }
 
 .chat-messages::-webkit-scrollbar {
